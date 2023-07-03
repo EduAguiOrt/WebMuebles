@@ -1,6 +1,12 @@
+import Footer from "../template/footer"
+import Header from "../template/header"
+import Navbar from "../template/navbar"
+
 const Usuarios = () => {
     return (
         <>
+            <Header />
+            <Navbar />
             <form>
                 <div className="content-wrapper">
                     <div className="content">
@@ -179,6 +185,7 @@ const Usuarios = () => {
                     </section>
                 </div>
             </form>
+            <Footer />
         </>
     )
 }

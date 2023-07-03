@@ -1,6 +1,12 @@
+import Footer from "../template/footer";
+import Header from "../template/header";
+import Navbar from "../template/navbar";
+
 const Productos = () => {
   return (
     <>
+      <Header />
+      <Navbar/>
       <div className="content-wrapper">
         <section className="content-header">
           <div className="container-fluid">
@@ -324,6 +330,7 @@ const Productos = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </>
   );
 };

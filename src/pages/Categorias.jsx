@@ -1,8 +1,12 @@
-import Home from "../template/Home"
+import Footer from "../template/footer"
+import Header from "../template/header"
+import Navbar from "../template/navbar"
+
 const Categorias = () => {
   return (
     <>
-    <Home/>
+      <Header />
+      <Navbar/>
       <form>
         <div className="content-wrapper">
           <div className="content">
@@ -125,6 +129,7 @@ const Categorias = () => {
           </div>
         </div>
       </form>
+      <Footer />
     </>
   )
 }

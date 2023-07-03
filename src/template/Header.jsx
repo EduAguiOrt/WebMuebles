@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
+
 
 function Header() {
   return (
@@ -11,19 +12,19 @@ function Header() {
             <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
           </li>
           <li className="nav-item d-none d-sm-inline-block">
-            <NavLink to="/Bienvenida" className="nav-link">Inicio</NavLink>
+            <Link to="/bienvenida" className="nav-link">Inicio</Link>
           </li>
           <li className="nav-item d-none d-sm-inline-block">
-            <NavLink to="/Productos" className="nav-link">Productos</NavLink>
+            <Link to="/productos" className="nav-link">Productos</Link>
           </li>
           <li className="nav-item d-none d-sm-inline-block">
-            <NavLink to="/Categorias" className="nav-link">Categorías</NavLink>
+            <Link to="/categorias" className="nav-link">Categorías</Link>
           </li>
           <li className="nav-item d-none d-sm-inline-block">
-            <NavLink to="/Esalidas" className="nav-link">Entradas/Salidas</NavLink>
+            <Link to="/esalidas" className="nav-link">Entradas/Salidas</Link>
           </li>
           <li className="nav-item d-none d-sm-inline-block">
-            <NavLink to="/Usuarios" className="nav-link">Usuarios</NavLink>
+            <Link to="/usuarios" className="nav-link">Usuarios</Link>
           </li>
         </ul>
         {/* Right navbar links */}

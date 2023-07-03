@@ -1,8 +1,12 @@
-import Home from "../template/Home"
+import Header from "../template/header"
+import Navbar from "../template/navbar"
+import Footer from "../template/footer"
+
 function Bienvenida() {
   return (
     <>
-      <Home />
+      <Header />
+      <Navbar />
       <div>
         <div className="content-wrapper">
           {/* Content Header (Page header) */}
@@ -46,6 +50,7 @@ function Bienvenida() {
         </div>
 
       </div>
+      <Footer />
     </>
   )
 }

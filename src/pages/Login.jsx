@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -13,7 +13,7 @@ const Login = () => {
           </div>
           <div className="card-body">
             <p className="login-box-msg">Sign in to start your session</p>
-            <form action="/Home" method="post">
+            <form action="/bienvenida" method="">
               <div className="input-group mb-3">
                 <input
                   type="email"
@@ -50,13 +50,13 @@ const Login = () => {
                   {/* <NavLink to="/Home" className={({ isActive }) => (isActive ? "active" : "")}>
                     Sign In
                   </NavLink> */}
-                  <NavLink
-                    to="/Home"
+                  <button
+                    to="/bienvenida"
                     type="submit"
                     className="btn btn-primary btn-block"
                   >
                     Sign In
-                  </NavLink>
+                  </button>
                 </div>
                 {/* /.col */}
               </div>
