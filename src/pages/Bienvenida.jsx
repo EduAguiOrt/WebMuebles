@@ -42,6 +42,10 @@ function Bienvenida() {
               <div className="card-footer">
                 A través de nuestra amplia gama de productos, buscamos crear ambientes de trabajo inspiradores y eficientes que impulsen el éxito de las empresas y el desarrollo profesional de las personas.
               </div>
+              <div>
+                <div>
+                </div>
+              </div>
               {/* /.card-footer*/}
             </div>
             {/* /.card */}

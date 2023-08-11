@@ -6,7 +6,7 @@ function Esalida() {
   return (
     <>
       <Header />
-      <Navbar/>
+      <Navbar />
       <form>
         <div className="content-wrapper">
           <div className="content">
@@ -23,7 +23,7 @@ function Esalida() {
                     <div className="card-body">
                       <div className="row">
                         <div className="form-group col-xs-12 col-md-8 col-lg-3">
-                          <labe>Código de producto:</labe>
+                          <label>Código de producto:</label>
                           <input
                             type="text"
                             name=""
